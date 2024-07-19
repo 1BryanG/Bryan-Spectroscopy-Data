@@ -12,11 +12,10 @@
 
 
 
-<div id="tester1" style="width:1100px;height:700px;"></div>
-<script>
-  TESTER = document.getElementById('tester1');
-  Plotly.newPlot(TESTER, [{
-    x: [470,525,560,585,600,645,700,735,810,880,940],
+<div id="tester" style="width:1100px;height:700px;"></div>
+  <script>
+    var trace1 = {
+    x: ['Blue470',525,560,585,600,645,700,735,810,880,940],
     y: [9.577922078,8.873239437,12.67409471,31.18741059,
       47.73722628,74.13533835,87.82343988,88.0910683,
       97.6340694,103.2258065,105.8479532], type: 'line'
